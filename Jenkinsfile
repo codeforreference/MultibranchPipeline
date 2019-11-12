@@ -4,7 +4,7 @@ pipeline {
 
             steps {
                 when {
-                branch 'test'
+                branch 'Master'
             }
                 git 'https://github.com/codeforreference/MultibranchPipeline.git'
             }
